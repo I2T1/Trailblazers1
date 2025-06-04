@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7f7f7;
+}
+
+/* CSS NAVBAR */
+.navbar {
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo img {
+  width: 60px;
+  height: 60px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+.navbar-logo span {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  ;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #1d4ed8; /* blue-700 */
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4fafd;
+  color: #103e52;
+}
+
+.biodata-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 60px;
+  gap: 60px;
+}
+
+.left img {
+  max-width: 400px;
+  height: auto;
+}
+
+.right {
+  max-width: 600px;
+}
+
+.right h1 {
+  font-size: 2.5rem;
+  margin-bottom: 4px;
+}
+
+.jp-name {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+blockquote {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.right p {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: #222;
+}
+
+.buttons {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 24px;
+  border: 2px solid #103e52;
+  color: #103e52;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #103e52;
+  color: white;
+}
+
+/* CSS Talent Card (Grid) */
+.talent-grid {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.talent-card {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  width: 260px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  text-decoration: none;
+  transition: transform 0.3s;
+  color: inherit;
+}
+
+.talent-card:hover {
+  transform: translateY(-6px);
+}
+
+.talent-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.talent-info {
+  padding: 16px;
+}
+
+.talent-info h3 {
+  margin: 0;
+  font-size: 1.4rem;
+  color: #003c5a;
+}
+
+.talent-info .role {
+  font-size: 0.9rem;
+  color: #1da1f2;
+  margin-bottom: 10px;
+}
+
+.talent-info p {
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+.button:hover {
+    background-color: #0056b3;
+}
+.illustration {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.illustration img {
+    max-width: 100%;
+    height: auto;
+    border: none;
+}
+
